@@ -1,6 +1,7 @@
 package lk.ijse.dep11.edupanel.to.request;
 
 import lk.ijse.dep11.edupanel.util.LecturerType;
+import lk.ijse.dep11.validation.LecturerImage;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -38,7 +39,7 @@ public class LecturerReqTo implements Serializable {
     private Integer displayOrder;
 
 
-
+    @LecturerImage
     private MultipartFile picture;
 
 
