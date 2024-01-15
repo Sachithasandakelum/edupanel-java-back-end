@@ -1,4 +1,4 @@
-package lk.ijse.dep11.validation;
+package lk.ijse.dep11.edupanel.validation;
 
 import org.springframework.web.multipart.MultipartFile;
 
@@ -19,8 +19,6 @@ public class LecturerImageConstraintValidator implements ConstraintValidator<Lec
 
         if(multipartFile.getContentType()==null || !multipartFile.getContentType().startsWith("image/")) return false;
 
-        if(multipartFile.getSize()>maximumFileSize) return false;
-
-        return true;
+        return multipartFile.getSize() <= maximumFileSize;
     }
 }

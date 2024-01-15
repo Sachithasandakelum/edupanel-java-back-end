@@ -1,9 +1,8 @@
 package lk.ijse.dep11.edupanel.to.request;
 
 import lk.ijse.dep11.edupanel.util.LecturerType;
-import lk.ijse.dep11.validation.LecturerImage;
+import lk.ijse.dep11.edupanel.validation.LecturerImage;
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.validator.constraints.Length;
