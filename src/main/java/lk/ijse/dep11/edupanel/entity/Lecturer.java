@@ -17,7 +17,7 @@ import java.io.Serializable;
 public class Lecturer implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Integer id;
 
     @Column(nullable = false,length = 300)
     private String name;
@@ -36,11 +36,11 @@ public class Lecturer implements Serializable {
     private int displayOrder;
 
     @ToString.Exclude
-    @OneToOne(mappedBy = "lecturer")
+    @OneToOne(mappedBy = "lecturer",cascade = {CascadeType.REMOVE,CascadeType.MERGE})
     private Picture picture;
 
     @ToString.Exclude
-    @OneToOne(mappedBy = "lecturer")
+    @OneToOne(mappedBy = "lecturer",cascade = {CascadeType.REMOVE,CascadeType.MERGE})
     private LinkedIn linkedIn;
 
     public Lecturer(String name, String designation, String qualifications, LecturerType type, int displayOrder) {
