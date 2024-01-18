@@ -31,12 +31,11 @@ The EduPanel Java API leverages various technologies to achieve its goals:
 The API offers endpoints to manage lecturer details, including creating new lecturers, updating details via multipart form data or JSON, retrieving a list of all lecturers, and more.
 
 
-file:///home/sachitha/Pictures/Screenshots/Screenshot%20from%202024-01-18%2012-33-30.png
+![Screenshot from 2024-01-18 12-33-30](https://github.com/Sachithasandakelum/edupanel-java-back-end/assets/119954750/0a6eae22-983c-41f4-a91d-0c08176ecfaa)
 
 ![Screenshot from 2024-01-18 12-34-06](https://github.com/Sachithasandakelum/edupanel-java-back-end/assets/119954750/29ef0a11-4b11-41c2-b3b0-082a8c84c5d2)
 
-file:///home/sachitha/Pictures/Screenshots/Screenshot%20from%202024-01-18%2012-34-34.png
-
+![Screenshot from 2024-01-18 12-34-34](https://github.com/Sachithasandakelum/edupanel-java-back-end/assets/119954750/8445e4cf-63db-4b20-929d-963214300925)
 
 ## License
 
